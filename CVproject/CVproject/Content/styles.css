@@ -1,0 +1,133 @@
+﻿ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: gray;
+    width: 20vw;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 11px 0;
+
+
+}
+
+    .sidebar nav li a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .main {
+        /*background-color:yellow; */
+        width: 90vw;
+    }
+
+.container{
+    display: flex;
+    width: 90vw;
+}
+
+.infoContainer{
+   
+    height: 35vw;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size: 65px;
+}
+.name {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.about{
+    font-size: 20px;
+}
+
+.buttons {
+    margin-top: 31px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: hotpink;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+
+
+}
+
+    .buttons button:hover
+    {
+        background-color: white;
+        color: red;
+    }
+
+    .devPic img {
+        width: 440px;
+        display: flex;
+    }
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Roboto', sans-serif;
+}
+.contactform h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    padding: 12px 0;
+   
+}
+
+.contactform form div{
+    padding: 14px 0;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+    .contactform form div input {
+       width: 26vw;
+       border-radius: 5px;
+       margin: 6px 0 0 0;
+       padding: 5px;
+    }
+
+#form-check{
+    flex-direction: row;
+
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+
+}
+
